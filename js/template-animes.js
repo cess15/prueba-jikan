@@ -1,5 +1,7 @@
 export default function printCart(object) {
     return `
+        <div class="row">
+        <div class="col">
         <div class="card mb-3 mt-3" style="max-width: 540px;">
             <div class="row g-0">
                 <div class="col-md-4">
@@ -17,6 +19,8 @@ export default function printCart(object) {
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
         </div>
     `
 }

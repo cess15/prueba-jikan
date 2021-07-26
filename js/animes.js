@@ -10,10 +10,6 @@ search.onkeyup = async function() {
         let data = await animes.json()
         drawCard(data.results)
     }
-    
-
-
 
 }
-
 
